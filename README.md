@@ -6,7 +6,7 @@ A Chat application made using Tkinter
 Chat app will have one server that hosts the chat and multiple clients that connect to it and communicate with each other. The client-server architecture is a basic computing model where the client requests services from the server, while the server processes these requests and provides services to the clients,with a Graphical User Interface.
 a server can serve multiple clients! In our application, we want many clients to be talking in real-time. The client software will send a message to the chatroom server, and the chatroom server will broadcast our message to all other connected clients.
 
-### How our chat application will work ? 
+### How chat application will work ? 
 1. A client sends a message to the server from the command line or GUI.
 2. The server receives and processes the message.
 3. The server sends the message to all other connected clients.
