@@ -75,7 +75,7 @@ class Client:
         while self.running:
             try:
                 message = self.sock.recv(1024).decode('utf-8')
-                if message == 'NICK':
+                if message == 'shubham':
                     self.sock.send(self.nickname.encode('utf-8'))
                 else:
                     if self.gui_done:
